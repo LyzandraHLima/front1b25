@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(219, 177, 123);
+}
+#identificador {
+    color: brown; /*cor*/
+    text-align: center; /*alinhamento*/
+    font-size: 20px; /*fonte*/
+    margin: 50px; /*espaço externo*/
+}
+.exemplo{
+    background-color:rgb(122, 122, 227);
+    color:green;
+    text-align: right;
+    padding:30px; /*espaçamento interno*/
+    font-size: 30px;
+
+}
+.texto{
+    color:brown;
+    line-height: 30px; /*espaãmento entre linhas*/
+    text-align: justify;
+    text-transform: uppercase; /*letras maiusculas*/
+    font-weight: bold;
+    border: 1px solid red;
+    font-family: cursive;
+}
+.produtos .item{
+    display: inline-block; /*todos os elementos que estão na div ficam na mesma linha*/
+}
+
+ .produtos{
+    text-align: center;
+    margin: 20px;
+ }
